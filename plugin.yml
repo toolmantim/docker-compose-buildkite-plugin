@@ -107,6 +107,10 @@ configuration:
       type: [ boolean, array ]
     skip-checkout:
       type: boolean
+    stop-signal:
+      type: string
+    leave-volumes:
+      type: boolean
     skip-pull:
       type: boolean
     ssh:
